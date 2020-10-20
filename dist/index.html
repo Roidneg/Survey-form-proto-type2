@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form Proto-type 2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <header>
+    <h1 id="title"> Tell Us What Your Prefered Communications Are</h1>
+    <h2 id="subtitle">Technology Has Opened A lot of Doors</h2>
+  </header>
+  <body>
+ <!------------------- Basic Information Needed, No One Under 18--->
+    
+    <p id="description">Help us not to become just another spammer</p>
+    <form id="survey-form">
+          <div class="input-heading">
+            <label for="name" id="name-label">Name</label>
+            <input for="name" id="name-label"name="name"placeholder="Jack Smith" required</input>
+            <br>
+            <label for="email" id="email-label">Email</label>
+            <input for="email" id="email-label"name="email"placeholder="Jack.Smith.79@gmail.com" required</input>
+            <br>
+            <label for="number" id="number-label">Age</label>
+            <input for="number"type="number"size="4"maxlength="4" name="number" 
+            placeholder="45" min="18" max="110" required</input>
+            <br>
+ <!-------------------Checkbox Questions Start Here----------->           
+            
+            <h2 id="form-title">Please choose which form of communications works best for you</h2>
+            <input type="checkbox" id="comms1" name="comms1" value="email"> <label for="comms1">Email Me Please</label>
+            <input type="checkbox" id="comms2" name="comms2" value="text-message"> <label for="comms2">Text Me Please</label>
+            <input type="checkbox" id="comms3" name="comms3" value="phone-call"> <label for="comms3">Call Me Please</label>
+            <input type="checkbox" id="comms4" name="comms4" value="other"> <label for="comms4">Other</label>
+<br><br>
+ 
+   <label for="other-answer">Please explain in detail if you chooose other. If you didn't click the other checkbox then please leave it blank:</label><br>
+   <textarea id="other-text-area" name="other-answer"
+             rows = "10"
+             cols = "85">
+            </textarea>
+            <br>
+   <input id="submit"type="submit"value="Submit"class="submit-button">
+          
+            
+    
+            </form> 
+  </body>
+  
+</html>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Ranchers&family=Sansita+Swashed&display=swap');
+
+
+#title{
+  font-family:Playfair Display;
+  text-align:center;
+}
+#subtitle{
+  font-family:Sansita Swashed;
+  text-align:center;
+  
+}
+#description{
+  text-align:center;
+  font-family:Sansita Swashed;
+}
+form{
+  background-color:grey;
+  line-height:1.4;
+  padding:2.5rem 2.5rem;
+  border-radius:2rem;
+  width:700px;
+  margin:auto;
+}
+
+.submit-button{
+  width:45%;
+  padding:0.35rem;
+  background-color:#92a8d1;
+  color:black;
+  border-radius:1rem;
+  cursor:pointer;
+  z-index:5;
+  margin-left:200px
+}
